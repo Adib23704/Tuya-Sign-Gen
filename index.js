@@ -64,7 +64,7 @@ router.get('/getsign', async (req, res) => {
 });
 
 app.use('/', router);
-app.listen(80);
+app.listen(80, () => console.log('Server started!'));
 
 let token = '';
 
