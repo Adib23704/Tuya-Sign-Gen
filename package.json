@@ -1,0 +1,16 @@
+{
+  "name": "automated-switches",
+  "version": "1.0.0",
+  "description": "First try on automated switch using Tuya SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adib23704",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "qs": "^6.10.3"
+  }
+}
